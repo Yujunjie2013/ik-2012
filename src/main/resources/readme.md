@@ -1,0 +1,6 @@
+在IKAnalyzer.cfg.xml中配置自定义词典，这里我添加了2个
+一个是chinese_medicine.dic表示中草药
+sensitive_word.dic表示敏感词
+在使用的时候可以通过props熟悉取到对应的提示符
+这2个文件的中间不是空格，而是制表符\t，如果不行请手动复制
+详细使用可以查看test用例
